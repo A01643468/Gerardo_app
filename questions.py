@@ -5,7 +5,7 @@ Cada respuesta da puntos a uno o varios personajes.
 
 QUESTIONS = [
     {
-        "question": "1. Que es lo que mas valoras en la vida?",
+        "question": "Que es lo que mas valoras en la vida?",
         "options": [
             {"text": "La libertad y la aventura",
              "points": {"Luffy": 3, "Ace": 2}},
@@ -18,11 +18,11 @@ QUESTIONS = [
         ],
     },
     {
-        "question": "2. Como reaccionas en una situacion de peligro?",
+        "question": "Como reaccionas en una situacion de peligro?",
         "options": [
             {"text": "Me lanzo de cabeza, sin pensarlo dos veces",
              "points": {"Luffy": 3, "Ace": 2}},
-            {"text": "Analizo la situacion y busco la salida mas inteligente",
+            {"text": "Analizo y busco la salida mas inteligente",
              "points": {"Nami": 3, "Robin": 2}},
             {"text": "Protejo a los demas con mi fuerza",
              "points": {"Zoro": 3, "Sanji": 2}},
@@ -31,7 +31,7 @@ QUESTIONS = [
         ],
     },
     {
-        "question": "3. Cual es tu hobby favorito?",
+        "question": "Cual es tu hobby favorito?",
         "options": [
             {"text": "Cocinar o disfrutar buena comida",
              "points": {"Sanji": 3, "Luffy": 1}},
@@ -44,7 +44,7 @@ QUESTIONS = [
         ],
     },
     {
-        "question": "4. Como te describirian tus amigos?",
+        "question": "Como te describirian tus amigos?",
         "options": [
             {"text": "Divertido y siempre con energia",
              "points": {"Luffy": 3, "Franky": 2, "Brook": 1}},
@@ -57,20 +57,20 @@ QUESTIONS = [
         ],
     },
     {
-        "question": "5. Si tuvieras una habilidad especial, cual seria?",
+        "question": "Si tuvieras una habilidad especial, cual seria?",
         "options": [
-            {"text": "Poder estirarme o tener fuerza extraordinaria",
+            {"text": "Estirarme o fuerza extraordinaria",
              "points": {"Luffy": 3}},
             {"text": "Controlar el clima o el fuego",
              "points": {"Nami": 2, "Ace": 3}},
             {"text": "Curar a otros o transformarme",
              "points": {"Chopper": 3}},
-            {"text": "Crear copias de mi mismo o leer mentes",
+            {"text": "Crear copias de mi mismo",
              "points": {"Robin": 3, "Brook": 1}},
         ],
     },
     {
-        "question": "6. Que te motiva mas?",
+        "question": "Que te motiva mas?",
         "options": [
             {"text": "Cumplir un sueno grande",
              "points": {"Luffy": 3, "Zoro": 2, "Sanji": 1}},
@@ -78,12 +78,12 @@ QUESTIONS = [
              "points": {"Robin": 3, "Chopper": 2}},
             {"text": "El dinero y las recompensas",
              "points": {"Nami": 3}},
-            {"text": "Hacer reir o hacer feliz a otros",
+            {"text": "Hacer reir o feliz a otros",
              "points": {"Brook": 3, "Usopp": 2, "Franky": 1}},
         ],
     },
     {
-        "question": "7. Como manejas los conflictos?",
+        "question": "Como manejas los conflictos?",
         "options": [
             {"text": "Con un buen golpe directo",
              "points": {"Luffy": 2, "Zoro": 3, "Sanji": 2}},
@@ -91,12 +91,12 @@ QUESTIONS = [
              "points": {"Nami": 3, "Robin": 2}},
             {"text": "Tratando de evitarlos",
              "points": {"Usopp": 3, "Chopper": 2}},
-            {"text": "Con humor para bajar la tension",
+            {"text": "Con humor para bajar tension",
              "points": {"Brook": 3, "Franky": 1}},
         ],
     },
     {
-        "question": "8. Que tipo de musica prefieres?",
+        "question": "Que tipo de musica prefieres?",
         "options": [
             {"text": "Algo energico y movido",
              "points": {"Luffy": 2, "Franky": 3}},
@@ -109,24 +109,24 @@ QUESTIONS = [
         ],
     },
     {
-        "question": "9. Cual es tu actitud ante el dinero?",
+        "question": "Cual es tu actitud ante el dinero?",
         "options": [
-            {"text": "Me gusta gastarlo en comida y diversion",
+            {"text": "Lo gasto en comida y diversion",
              "points": {"Luffy": 3, "Sanji": 1}},
-            {"text": "Soy muy ahorrador, casi tacano",
+            {"text": "Soy ahorrador, casi tacano",
              "points": {"Nami": 3}},
-            {"text": "Lo uso para construir o invertir en proyectos",
+            {"text": "Lo uso para construir o invertir",
              "points": {"Franky": 3, "Usopp": 1}},
-            {"text": "No me importa mucho, tengo otras prioridades",
+            {"text": "No me importa mucho",
              "points": {"Zoro": 3, "Robin": 2, "Brook": 1}},
         ],
     },
     {
-        "question": "10. Como te ves dentro de 10 anos?",
+        "question": "Como te ves dentro de 10 anos?",
         "options": [
-            {"text": "Cumpliendo el sueno que siempre quise",
+            {"text": "Cumpliendo mi gran sueno",
              "points": {"Luffy": 3, "Zoro": 2, "Sanji": 1}},
-            {"text": "Con una familia o grupo de amigos cercanos",
+            {"text": "Con familia o amigos cercanos",
              "points": {"Chopper": 2, "Brook": 2, "Sanji": 1}},
             {"text": "Viajando y conociendo el mundo",
              "points": {"Robin": 3, "Nami": 2, "Ace": 1}},
@@ -135,7 +135,7 @@ QUESTIONS = [
         ],
     },
     {
-        "question": "11. Que comida prefieres?",
+        "question": "Que comida prefieres?",
         "options": [
             {"text": "Carne, mucha carne",
              "points": {"Luffy": 3, "Zoro": 1}},
@@ -148,20 +148,20 @@ QUESTIONS = [
         ],
     },
     {
-        "question": "12. Como reaccionas si un amigo esta triste?",
+        "question": "Como reaccionas si un amigo esta triste?",
         "options": [
-            {"text": "Le hago reir con bromas o tonterias",
+            {"text": "Le hago reir con bromas",
              "points": {"Luffy": 2, "Brook": 3, "Usopp": 1}},
-            {"text": "Le doy buenos consejos basados en mi experiencia",
+            {"text": "Le doy buenos consejos",
              "points": {"Robin": 3, "Nami": 2}},
             {"text": "Lo escucho y le doy un abrazo",
              "points": {"Chopper": 3, "Sanji": 2}},
-            {"text": "Le prometo proteccion y resuelvo lo que lo molesta",
+            {"text": "Lo protejo y resuelvo lo que lo molesta",
              "points": {"Zoro": 3, "Ace": 2, "Franky": 1}},
         ],
     },
     {
-        "question": "13. Que tipo de pelicula prefieres?",
+        "question": "Que tipo de pelicula prefieres?",
         "options": [
             {"text": "Accion y aventura",
              "points": {"Luffy": 2, "Zoro": 2, "Ace": 2}},
@@ -174,46 +174,46 @@ QUESTIONS = [
         ],
     },
     {
-        "question": "14. Que tan organizado eres?",
+        "question": "Que tan organizado eres?",
         "options": [
             {"text": "Soy un desastre, todo es caos",
              "points": {"Luffy": 3, "Zoro": 1}},
-            {"text": "Soy super organizado y planeo todo",
+            {"text": "Super organizado, planeo todo",
              "points": {"Nami": 3, "Robin": 2}},
-            {"text": "Mas o menos, lo intento pero no siempre",
+            {"text": "Mas o menos, lo intento",
              "points": {"Usopp": 2, "Chopper": 2, "Sanji": 1}},
-            {"text": "Soy organizado en lo mio, caotico en lo demas",
+            {"text": "Organizado en lo mio nada mas",
              "points": {"Franky": 3, "Brook": 1}},
         ],
     },
     {
-        "question": "15. Que es lo primero que haces al despertar?",
+        "question": "Que es lo primero que haces al despertar?",
         "options": [
             {"text": "Pensar que voy a comer hoy",
              "points": {"Luffy": 3, "Sanji": 2}},
             {"text": "Empezar mi rutina de ejercicio",
              "points": {"Zoro": 3, "Sanji": 1}},
-            {"text": "Revisar el clima o las noticias",
+            {"text": "Revisar el clima o noticias",
              "points": {"Nami": 3, "Robin": 1}},
             {"text": "Quedarme en cama un rato mas",
              "points": {"Usopp": 2, "Brook": 2, "Ace": 2}},
         ],
     },
     {
-        "question": "16. Que tipo de mascota tendrias?",
+        "question": "Que tipo de mascota tendrias?",
         "options": [
             {"text": "Algo exotico o raro",
              "points": {"Luffy": 3, "Robin": 2}},
             {"text": "Un perro grande y leal",
              "points": {"Zoro": 3, "Ace": 1}},
-            {"text": "Un gato u otro animal independiente",
+            {"text": "Un gato independiente",
              "points": {"Nami": 2, "Robin": 2}},
             {"text": "Algo pequeno y tierno",
              "points": {"Chopper": 3, "Sanji": 1}},
         ],
     },
     {
-        "question": "17. Cual es tu mayor miedo?",
+        "question": "Cual es tu mayor miedo?",
         "options": [
             {"text": "Perder a mis seres queridos",
              "points": {"Luffy": 2, "Ace": 2, "Brook": 2}},
@@ -226,41 +226,41 @@ QUESTIONS = [
         ],
     },
     {
-        "question": "18. Si pudieras viajar a un solo lugar, cual seria?",
+        "question": "Si pudieras viajar a un solo lugar, cual seria?",
         "options": [
             {"text": "Una isla desierta llena de aventura",
              "points": {"Luffy": 3, "Ace": 2}},
             {"text": "Un dojo o lugar para entrenar",
              "points": {"Zoro": 3}},
-            {"text": "Una ciudad antigua llena de historia",
+            {"text": "Una ciudad antigua con historia",
              "points": {"Robin": 3, "Brook": 1}},
             {"text": "Una playa tropical con buena comida",
              "points": {"Sanji": 2, "Nami": 3}},
         ],
     },
     {
-        "question": "19. Como te tomas las criticas?",
+        "question": "Como te tomas las criticas?",
         "options": [
             {"text": "Las ignoro, se quien soy",
              "points": {"Luffy": 3, "Zoro": 2, "Ace": 2}},
-            {"text": "Me afectan pero las uso para mejorar",
+            {"text": "Las uso para mejorar",
              "points": {"Sanji": 2, "Chopper": 3}},
             {"text": "Me deprimo un rato pero lo supero",
              "points": {"Usopp": 3, "Brook": 2}},
-            {"text": "Las analizo y veo si tienen razon",
+            {"text": "Las analizo si tienen razon",
              "points": {"Robin": 3, "Nami": 2}},
         ],
     },
     {
-        "question": "20. Cual seria tu frase de vida?",
+        "question": "Cual seria tu frase de vida?",
         "options": [
-            {"text": "Voy a ser el rey de los piratas (o lo que sea que quiero ser)",
+            {"text": "Voy a ser el rey de los piratas",
              "points": {"Luffy": 3, "Zoro": 1, "Ace": 1}},
             {"text": "Si no doy todo de mi, no es vivir",
              "points": {"Sanji": 3, "Zoro": 2, "Franky": 2}},
             {"text": "El conocimiento es el mayor tesoro",
              "points": {"Robin": 3, "Chopper": 2}},
-            {"text": "La vida es para disfrutarla con los amigos",
+            {"text": "La vida es para disfrutarla con amigos",
              "points": {"Brook": 3, "Luffy": 1, "Chopper": 1}},
         ],
     },

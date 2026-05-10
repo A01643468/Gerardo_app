@@ -1,45 +1,50 @@
-# One Piece Personality Quiz
+# One Piece Personality Quiz · Edicion Pro
 
-Programa de escritorio que te dice que personaje de One Piece eres segun tu personalidad, contestando 20 preguntas.
+Aplicacion de escritorio con diseno moderno que te dice **que personaje de One Piece eres** segun tu personalidad, contestando 20 preguntas.
 
-Hecho en **Python con Tkinter** (interfaz grafica nativa, sin instalar nada extra).
+Hecho en **Python con CustomTkinter** (interfaz moderna, oscura, con bordes redondeados y barras de progreso animadas).
 
-## Que hace?
+## Caracteristicas
 
-- Presenta 20 preguntas sobre tu personalidad, gustos y reacciones.
-- Cada respuesta suma puntos a uno o varios personajes.
-- Al final te muestra el personaje con mayor puntaje, una descripcion de su personalidad y un top 3 de afinidad.
-
-## Personajes disponibles
-
-Luffy, Zoro, Nami, Usopp, Sanji, Chopper, Robin, Franky, Brook, Ace.
+- Diseno moderno tipo aplicacion profesional (modo oscuro).
+- 20 preguntas con sistema de puntos por personaje.
+- Pantalla de bienvenida con badges informativos.
+- Opciones en grid 2x2 con efecto hover interactivo.
+- Pantalla de resultado con barras de afinidad para los 5 personajes mas afines.
+- 10 personajes: Luffy, Zoro, Nami, Usopp, Sanji, Chopper, Robin, Franky, Brook, Ace.
 
 ## Estructura
 
 ```
 Gerardo_app/
-- main.py           # Programa principal con la interfaz grafica
-- questions.py      # Las 20 preguntas y sus opciones
-- characters.py     # Definicion de los personajes
+- main.py            # Aplicacion principal con CustomTkinter
+- questions.py       # Las 20 preguntas y sus opciones
+- characters.py      # Definicion de los personajes
+- requirements.txt   # Dependencias
 - README.md
 ```
 
 ## Como correrlo
 
 ### Requisitos
-- Python 3.8 o superior instalado.
-- Tkinter (viene incluido en Python por defecto).
+- Python 3.8 o superior.
 
 ### Pasos
 
-1. Abre la carpeta en VS Code.
-2. En la terminal:
+1. Abrir la carpeta en VS Code.
+2. En la terminal, instalar la dependencia:
+
+```
+pip install customtkinter
+```
+
+3. Correr la app:
 
 ```
 python main.py
 ```
 
-Listo. Se abre la ventana con el test.
+Listo. Se abre la ventana con diseno profesional.
 
 ---
 
